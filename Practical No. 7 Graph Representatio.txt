@@ -1,0 +1,65 @@
+Practical No. 7: Graph Representation Using Adjacency Matrix and Adjacency List with BFS and DFS
+1. Aim
+To represent a given city area graph using Adjacency Matrix and Adjacency List, and perform BFS and DFS traversal starting from a given location A.
+2. Objectives
+1. To understand graph representation using real-world locations.
+2. To represent a graph using Adjacency Matrix.
+3. To represent a graph using Adjacency List.
+4. To implement BFS and DFS traversal.
+5. To determine the visiting sequence starting from vertex A.
+3. Theory
+A Graph is a data structure consisting of vertices (nodes) and edges (connections).
+
+1. Adjacency Matrix:
+
+An adjacency matrix is a 2D array used to represent connections between vertices. It stores 1 if an edge exists, otherwise 0.
+
+2. Adjacency List:
+
+An adjacency list stores the neighboring vertices of each vertex.
+
+3. Breadth First Search (BFS):
+
+BFS visits vertices level by level and uses a Queue (FIFO).
+
+- Time Complexity: O(V + E)
+
+4. Depth First Search (DFS):
+
+DFS explores one branch as deeply as possible before backtracking. It uses a Stack or Recursion.
+
+- Time Complexity: O(V + E)
+4. Algorithms
+A. BFS Using Adjacency List
+1. Start.
+2. Create an adjacency list.
+3. Select starting vertex A.
+4. Mark A as visited.
+5. Insert A into the queue.
+6. While the queue is not empty:
+   - Remove a vertex from the queue.
+   - Visit its unvisited adjacent vertices.
+   - Mark them visited and insert them into the queue.
+7. Stop.
+B. BFS Using Adjacency Matrix
+1. Start.
+2. Create an adjacency matrix.
+3. Select starting vertex A.
+4. Mark A as visited.
+5. Insert A into the queue.
+6. Check all connected vertices using the matrix.
+7. Visit unvisited vertices and insert them into the queue.
+8. Repeat until the queue is empty.
+9. Stop.
+C. DFS Using Adjacency Matrix
+1. Start.
+2. Create an adjacency matrix.
+3. Select starting vertex A.
+4. Mark A as visited.
+5. Display A.
+6. Visit an unvisited adjacent vertex.
+7. Repeat until no unvisited adjacent vertex remains.
+8. Backtrack and visit remaining vertices.
+9. Stop.
+5. Conclusion
+Thus, the graph was successfully represented using Adjacency Matrix and Adjacency List. BFS and DFS traversals were performed to visit all reachable vertices starting from vertex A.

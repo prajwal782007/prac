@@ -1,0 +1,59 @@
+Practical No. 4: Student Record Management System Using Linked List
+1. Aim
+To implement a Student Record Management System using a Singly Linked List with operations like Add, Delete, Update, Search and Sort.
+2. Objectives
+1. To implement a Student Record Management System using Linked List.
+2. To perform Add, Delete, Update and Search operations.
+3. To sort records by Roll Number or Marks.
+4. To display records in ascending or descending order.
+3. Theory
+A Linked List is a dynamic linear data structure consisting of nodes. Each node contains data and a pointer to the next node.
+
+In a Singly Linked List, each node stores student information and points to the next node.
+
+
+
+4. Algorithms
+A. Add Student
+1. Start.
+2. Create a new node containing Roll No, Name and Marks.
+3. If the list is empty, make the new node the head.
+4. Otherwise, traverse to the last node.
+5. Link the last node to the new node.
+6. Stop.
+B. Delete Student
+1. Start.
+2. Accept the Roll Number to delete.
+3. Search for the matching node.
+4. If found, adjust links to remove the node.
+5. If it is the first node, update head.
+6. Display deletion message.
+7. Stop.
+C. Update Student
+1. Start.
+2. Accept Roll Number.
+3. Search the linked list.
+4. If found, accept new Name and Marks.
+5. Update the record.
+6. Stop.
+D. Search Student
+1. Start.
+2. Accept Roll Number.
+3. Traverse from the head.
+4. Compare each node's Roll Number.
+5. If found, display student record.
+6. Otherwise, display "Record Not Found".
+7. Stop.
+E. Sort Student Records
+1. Start.
+2. Select sorting field (Roll No or Marks).
+3. Select ascending or descending order.
+4. Compare each pair of records.
+5. Swap student data if required.
+6. Continue until all records are sorted.
+7. Display sorted records.
+8. Stop.
+
+
+6. Conclusion
+Thus, the Student Record Management System was successfully implemented using a Singly Linked List. It performs Add, Delete, Update, Search, Sort and Display operations efficiently.

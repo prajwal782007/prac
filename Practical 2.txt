@@ -1,0 +1,69 @@
+Practical No. 2: Linear Search and Binary Search
+1. Aim
+To implement Linear Search and Binary Search algorithms to find a particular customer account ID in a list.
+2. Objectives
+1. To understand Linear Search.
+2. To implement Binary Search on a sorted list.
+3. To compare both searching techniques.
+4. To check whether the given customer ID is found or not.
+3. Algorithm
+A. Linear Search
+1. Start.
+2. Read the list of customer IDs.
+3. Read the ID to be searched.
+4. Compare the search ID with each element.
+5. If matched, display "ID Found".
+6. Otherwise, continue searching.
+7. If the list ends, display "ID Not Found".
+8. Stop.
+B. Binary Search
+1. Start.
+2. Read a sorted list of customer IDs.
+3. Read the ID to be searched.
+4. Set low = 0 and high = n-1.
+5. Calculate mid = (low + high)/2.
+6. If ID matches, display "ID Found".
+7. If ID is smaller, set high = mid-1.
+8. Otherwise, set low = mid+1.
+9. Repeat until low > high.
+10. Display "ID Not Found" if not found.
+11. Stop.
+
+
+4. Theory
+1. Linear Search:
+
+Linear Search checks each element one by one from the beginning of the list until the required ID is found or the list ends.
+- Works on sorted and unsorted data.
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+2. Binary Search:
+
+Binary Search repeatedly divides a sorted list into two halves and checks the middle element to find the required ID.
+- Requires sorted data.
+- Time Complexity: O(log n)
+- Space Complexity: O(1) for iterative implementation.
+
+
+
+5. Conclusion
+Thus, Linear Search and Binary Search were successfully implemented to find customer account IDs. Binary Search is faster than Linear Search for large sorted lists.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
